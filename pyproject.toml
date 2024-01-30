@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+addopts="-l -v --durations=10"
+markers=[
+    "desktop: Десктопные тесты",
+    "mobila: Мобильные тесты"
+]
